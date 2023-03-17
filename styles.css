@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin: 20px;
+    white-space: nowrap;
+}
+
+img {
+    vertical-align: middle;
+}
+
+label {
+    color: white;
+    padding: 10px;
+    text-align: start;
+}
+
+.material-icons {
+    background-color: black;
+    color: white;
+}
+
+button {
+    background-color: black;
+    border: none;
+    float: right;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.big-labels {
+    font-size: 24px;
+    margin: 3%;
+}
+
+.v-scroll {
+    overflow: scroll;
+}
+
+.v-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.v-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.h-scroll {
+    overflow-x: scroll;
+}
+
+.h-scroll::-webkit-scrollbar-track-piece {
+    max-width: 60%;
+}
